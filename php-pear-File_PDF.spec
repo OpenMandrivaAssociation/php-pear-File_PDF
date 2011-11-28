@@ -3,8 +3,8 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.3.2
-Release:	%mkrel 6
+Version:	0.3.3
+Release:	%mkrel 1
 Summary:	PDF generation using only PHP
 License:	PHP License
 Group:		Development/PHP
