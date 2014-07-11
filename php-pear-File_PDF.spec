@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.3.3
-Release:	9
+Release:	10
 Summary:	PDF generation using only PHP
 License:	PHP License
 Group:		Development/PHP
