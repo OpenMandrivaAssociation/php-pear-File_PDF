@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.3.3
-Release:	14
+Release:	15
 Summary:	PDF generation using only PHP
 License:	PHP License
 Group:		Development/PHP
@@ -44,6 +44,7 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 %defattr(-,root,root)
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
+%{_datadir}/pear/test/File_PDF/tests/*
 
 
 %changelog
